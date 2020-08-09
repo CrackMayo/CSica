@@ -11,13 +11,14 @@ html {
 }
 
 #headerContent{
-    position: relative;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;   
     margin-left: 0%;
-
+    width: 100%;
     height: 300px;
     margin-bottom: 40px;
-
- 
 }
 
 #backgroundImg{
@@ -25,9 +26,17 @@ html {
     height: 100%; 
 }
 
+#sonidoImg{
+    max-width: 5%;
+    max-height: 5%;
+    margin-right: 3%;
+    margin-left: 2%;
+  
+}
 li {
     display: inline;
-    margin-left: 8%;
+    margin-left: 2%;
+
   }
 
   #titulo{
@@ -40,30 +49,46 @@ li {
 }
 
 a { text-decoration: none; 
-    color: gray;
-    font-size: 0.5rem;
+    color: white;
+    font-size: 0.35rem;
 }
 
 #menu{
     position: relative;
-    top: -100%;
+    top: -110%;
    
 }
 
 #grupo9{
-    position: absolute;
-    top: 25%;
-    width: 50%;
-    height: 50%;
-    margin-left: 74.5%;
+  width: 190%;
+  height: 40%;
+  
+  
 }
 
-#menu2, h4,h6{
+#grupo9Img{
+    position: absolute;
+    overflow: hidden;
+    width: 5%;
+    height: 150%;
+    top: 20%;
+    right: 0%;
+}
+#menu2{
+  
+  
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 100%;
+}
+
+h4,h6{
     display: inline;
 }
 
 #todayTitle{
-    margin-left: 3%;
+    margin-left: 10%;
     color: #9e9c9b;
 }
 
@@ -78,23 +103,22 @@ a { text-decoration: none;
 }
 
 #newAlb{
-    margin-left: 50%;
-}
-
-#menu2{
-    margin-left: 5%;
+    
+    margin-left: 40%;
     
 }
+
+
 
 #footerImgContainer{
     width: 500px;
     height: 300px;
-    margin-top: 15%;
+    margin-top: 30%;
     margin-left: 5%;
 }
 
 #imgFooter{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -103,6 +127,141 @@ a { text-decoration: none;
     position: absolute;
     top: 60%;
     margin-left: 5%;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
    
+}
+
+#signBtn{
+    
+    background-color: Transparent;
+    border-color:white;
+    cursor:pointer;
+    width: 70px;
+    height: 20px ;
+    border-radius: 15px;
+    position: absolute;
+    right: 1%;
+    border-width: thin;
+    color: white;
+    font-size: 0.33rem;
+    top: 40%;
+}
+
+#loremParrafo{
+    font-size: 0.31rem;
+}
+
+#CSicaLogo{
+    position: absolute;
+    max-width: 20%;
+    max-height: 20%;
+    top: 30%;
+    left: 4.5%;
+}
+
+.optionsBtn{
+    display: block;
+    background-color: #787876;
+    opacity: 100%;
+    width: 100px;
+    padding: 2px;
+    cursor:pointer;
+    outline: none;
+    border-radius: 15px;
+    border-width: thin;
+    color: white;
+    font-size: 0.3rem;
+    margin-bottom: 5%;
+}
+
+#divOptionsBtn{
+   
+    position: absolute;
+    top: -155%;
+    left: 62%;
+}
+
+#buscarBtn{
+    position: absolute;
+    outline: none;
+    top: 40%;
+    right: 8%;
+    border-radius: 15px;
+    border-width: thin;
+    background-color: #787876;
+    opacity: 0.6;
+    color: white;
+    text-indent: 10px;
+    max-width: 7%;
+    margin-left: 2%;
+    max-width: 10%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    margin-left: 10%;
+    font-size: 0.7em;
+  }
+
+  
+#divImgPost{
+    position: absolute;
+    top: 14%;
+    right: 3%;
+    
+}
+
+#imgPost{
+
+    border-radius: 15px;
+    max-width: 40%;
+    max-height: 40%;
+    
+}
+
+#postTitle{
+    position: absolute;
+    color: white;
+    left: -18%;
+    font-size: 0.35rem;
+    top: 30%;
+}
+
+#postText{
+    position: absolute;
+    color: gray;
+    left: -30%;
+    font-size: 0.25rem;
+    top: 38%;
+}
+
+#divImgOlistic{
+    position: absolute;
+    top: 25%;
+    right: 6%;
+    
+}
+
+#imgOlistic{
+
+    border-radius: 15px;
+    max-width: 38%;
+    max-height: 37%;
+    
+}
+
+#olisticTitle{
+    position: absolute;
+    color: white;
+    left: 45%;
+    font-size: 0.35rem;
+    top: 30%;
+}
+
+#olisticText{
+    position: absolute;
+    color: gray;
+    left: 45%;
+    font-size: 0.25rem;
+    top: 38%;
 }
