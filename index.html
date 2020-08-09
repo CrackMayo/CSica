@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sansserif">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSica</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div id="headerContent">
-            <img id="backgroundImg" src="Resources/Grupo_22@2x.jpg" alt=""> 
+            <img id="backgroundImg" src="Resources/Grupo_22@2x.jpg" alt="">
             <nav class="sansserif" id="menu">
                 <ul>
                     </li><a href="index.html"><img id="sonidoImg" src="Resources/Trazado 58.svg" alt=""></a>
-    
+
                     <li> <a href="">New</a></li>
-    
+
                     <li><a href="">Música</a></li>
-    
+
                     <li><a href="">Eventos</a></li>
 
                     <li><a href="">Radio</a></li>
@@ -26,39 +28,140 @@
                 </ul>
             </nav>
             <div id="grupo9Img">
-                <img id="grupo9"  src="Resources/Grupo_9.svg" alt="">
+                <!-- <img id="grupo9"  src="Resources/Grupo_9.svg" alt=""> -->
             </div>
             <img id="CSicaLogo" src="Resources/Grupo 26.svg" alt="">
             <h10 id="headerText" class="sansserif"><b>Lorem Ipsum es simplemente un texto</b></p>
-            <p id="loremParrafo">ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha <br>sido el texto ficticio estándar de la industria desde el año 1500</p>
-            <div id="divOptionsBtn">
-                <input class="optionsBtn" type="button" value="Experimental">
-                <input class="optionsBtn" type="button" value="Alternativa ">
-                <input class="optionsBtn" type="button" value="Electrónica ">
-            </div>
-            
+                <p id="loremParrafo">ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha
+                    <br>sido el texto ficticio estándar de la industria desde el año 1500</p>
+                <div id="divOptionsBtn">
+                    <input class="optionsBtn" type="button" value="Experimental">
+                    <input class="optionsBtn" type="button" value="Alternativa ">
+                    <input class="optionsBtn" type="button" value="Electrónica ">
+                </div>
+
         </div>
         <div id="divImgPost">
             <img id="imgPost" src="Resources/aditya-chinchure-ZhQCZjr9fHo-unsplash@2x2.jpg" alt="">
             <h id="postTitle">Post</h>
-            <p id="postText">30 Canciones</p>
+            <p id="postText">10 Canciones</p>
         </div>
 
         <div id="divImgOlistic">
             <img id="imgOlistic" src="Resources/adrian-korte-1@2x2.jpg" alt="">
-            <h id="olisticTitle">Post</h>
-            <p id="olisticText">30 Canciones</p>
+            <h id="olisticTitle">Olistic</h>
+            <p id="olisticText">15 Canciones</p>
         </div>
-        
+
     </header>
     <main>
         <div id="menu2">
             <h4>Top Songs</h4>
             <h6 id="todayTitle">Today</h3>
-            <h6 id="weekTitle">Week</h3>
-            <h6 id="monthTitle">Month</h3>
-            <h4 id="newAlb">Nuevos álbumes</h4>    
+                <h6 id="weekTitle">Week</h3>
+                    <h6 id="monthTitle">Month</h3>
+                        <h4 id="newAlb">Nuevos álbumes</h4>
         </div>
+        <section id="topSongsTable">
+
+            <table class="table">
+                <thead>
+                    <tr style="border-bottom: 7px solid #000;">
+                        <th>#</th>
+                        <th>Canción</th>
+                        <th>Album</th>
+                        <th>Tiempo</th>
+                        <th>Plays</th>
+                        <th></th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01 <img id="img01Table" src="Resources/jason-rosewell-ASKeuOZqhYU-unsplash@2x2.jpg" alt=""></td>
+                        <td>All of Me</td>
+                        <td>love</td>
+                        <td>3:25</td>
+                        <td>120.000</td>
+                        <td>love</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>All of Me</td>
+                        <td>love</td>
+                        <td>3:25</td>
+                        <td>10.000</td>
+                        <td>love</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>All of Me</td>
+                        <td>love</td>
+                        <td>3:25</td>
+                        <td>30.000</td>
+                        <td>love</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>All of Me</td>
+                        <td>love</td>
+                        <td>3:25</td>
+                        <td>5.000</td>
+                        <td>love</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>All of Me</td>
+                        <td>love</td>
+                        <td>3:25</td>
+                        <td>4.000</td>
+                        <td>love</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="topAlbumsTable">
+
+            <table id="albumsTable" class="table">
+                <!-- <thead>
+                    <tr style="border-bottom: 7px solid #000;">
+                        <th>#</th>
+                        <th>Canción</th>
+                        <th>Album</th>
+                        <th>Tiempo</th>
+                        <th>Plays</th>
+                        <th></th>
+                    </tr>
+                    
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td><img class="imgsNewAlbum" src="Resources/mohammad-metri-1oKxSKSOowE-unsplash@2x2.jpg" alt=""></td>
+                        <td><img class="imgsNewAlbum" src="Resources/adrian-korte-1@2x2.JPG" alt=""></td>
+                     
+                    </tr>
+                    <tr>
+                        <td id="newAlbumsText"><b>All of Me</b><br>John Legend</td>
+                        <td id="newAlbumsText"><b>All of Me</b><br>John Legend</td>
+                     
+                    </tr>
+                    <tr>
+                        <td><img class="imgsNewAlbum" src="Resources/jason-rosewell-ASKeuOZqhYU-unsplash@2x2.jpg" alt=""></td>
+                        <td><img class="imgsNewAlbum" src="Resources/dark-rider-JmVaNyemtN8-unsplash@2x2.jpg" alt=""></td>
+                      
+                    </tr>
+                    <tr>
+                       
+                        <td id="newAlbumsText"><b>All of Me</b><br>John Legend</td>
+                        <td id="newAlbumsText"><b>All of Me</b><br>John Legend</td>
+                    
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </section>
     </main>
     <footer>
         <div id="footerImgContainer">
@@ -66,4 +169,5 @@
         </div>
     </footer>
 </body>
+
 </html>

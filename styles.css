@@ -9,7 +9,10 @@ html {
   *:after {
     box-sizing: inherit;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 #headerContent{
     position: absolute;
     left:0;
@@ -27,19 +30,18 @@ html {
 }
 
 #sonidoImg{
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 7%;
+    max-height: 7%;
     margin-right: 3%;
-    margin-left: 2%;
-  
+    margin-left: 1.5%;
 }
+
 li {
     display: inline;
-    margin-left: 2%;
+    margin-left: 4%;
+}
 
-  }
-
-  #titulo{
+#titulo{
     display: inline; 
     margin-left: 3%;
 }
@@ -50,7 +52,7 @@ li {
 
 a { text-decoration: none; 
     color: white;
-    font-size: 0.35rem;
+    font-size: 0.5rem;
 }
 
 #menu{
@@ -60,18 +62,19 @@ a { text-decoration: none;
 }
 
 #grupo9{
-  width: 190%;
+  width: 170%;
   height: 40%;
   
   
 }
 
 #grupo9Img{
+    background-image: url(Resources/Grupo_9.svg);
+    background-size: cover;
     position: absolute;
-    overflow: hidden;
-    width: 5%;
-    height: 150%;
-    top: 20%;
+    height: 175px;
+    width: 98px;
+    top: 27%;
     right: 0%;
 }
 #menu2{
@@ -104,7 +107,7 @@ h4,h6{
 
 #newAlb{
     
-    margin-left: 40%;
+    margin-left: 13%;
     
 }
 
@@ -113,7 +116,7 @@ h4,h6{
 #footerImgContainer{
     width: 500px;
     height: 300px;
-    margin-top: 30%;
+    margin-top: 70%;
     margin-left: 5%;
 }
 
@@ -125,9 +128,9 @@ h4,h6{
 #headerText{
     color: white;
     position: absolute;
-    top: 60%;
+    top: 65.3%;
     margin-left: 5%;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
    
 }
 
@@ -136,25 +139,26 @@ h4,h6{
     background-color: Transparent;
     border-color:white;
     cursor:pointer;
-    width: 70px;
-    height: 20px ;
+    width: 100px;
+    height: 25px ;
     border-radius: 15px;
     position: absolute;
-    right: 1%;
+    right: 4%;
     border-width: thin;
     color: white;
-    font-size: 0.33rem;
+    font-size: 0.45rem;
     top: 40%;
+   
 }
 
 #loremParrafo{
-    font-size: 0.31rem;
+    font-size: 0.35rem;
 }
 
 #CSicaLogo{
     position: absolute;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 23%;
+    max-height: 23%;
     top: 30%;
     left: 4.5%;
 }
@@ -163,21 +167,22 @@ h4,h6{
     display: block;
     background-color: #787876;
     opacity: 100%;
-    width: 100px;
+    width: 130px;
     padding: 2px;
     cursor:pointer;
     outline: none;
     border-radius: 15px;
     border-width: thin;
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.37rem;
     margin-bottom: 5%;
+    border-color:transparent;
 }
 
 #divOptionsBtn{
    
     position: absolute;
-    top: -155%;
+    top: -156%;
     left: 62%;
 }
 
@@ -185,59 +190,61 @@ h4,h6{
     position: absolute;
     outline: none;
     top: 40%;
-    right: 8%;
+    right: 11%;
     border-radius: 15px;
     border-width: thin;
     background-color: #787876;
     opacity: 0.6;
     color: white;
     text-indent: 10px;
-    max-width: 7%;
-    margin-left: 2%;
-    max-width: 10%;
+    width: 200px;
+    height: 25px;
+    margin-right: 4%;
+    border-color:transparent;
+    
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
     margin-left: 10%;
-    font-size: 0.7em;
+    font-size: 1.1em;
   }
 
   
 #divImgPost{
     position: absolute;
     top: 14%;
-    right: 3%;
+    right: 2%;
     
 }
 
 #imgPost{
 
     border-radius: 15px;
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 38%;
+    max-height: 38%;
     
 }
 
 #postTitle{
     position: absolute;
     color: white;
-    left: -18%;
-    font-size: 0.35rem;
+    left: -27%;
+    font-size: 0.4rem;
     top: 30%;
 }
 
 #postText{
     position: absolute;
     color: gray;
-    left: -30%;
-    font-size: 0.25rem;
+    left: -50%;
+    font-size: 0.35rem;
     top: 38%;
 }
 
 #divImgOlistic{
     position: absolute;
-    top: 25%;
+    top: 28%;
     right: 6%;
     
 }
@@ -245,8 +252,8 @@ h4,h6{
 #imgOlistic{
 
     border-radius: 15px;
-    max-width: 38%;
-    max-height: 37%;
+    max-width: 36%;
+    max-height: 35%;
     
 }
 
@@ -254,7 +261,7 @@ h4,h6{
     position: absolute;
     color: white;
     left: 45%;
-    font-size: 0.35rem;
+    font-size: 0.4rem;
     top: 30%;
 }
 
@@ -262,6 +269,79 @@ h4,h6{
     position: absolute;
     color: gray;
     left: 45%;
-    font-size: 0.25rem;
+    font-size: 0.35rem;
     top: 38%;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing:  90px 2px;
+    width: 100%;
+    
+ 
+  }
+  
+  .table th, .table td {
+   
+    text-align: center;
+  }
+  
+  .table th {
+    
+    color: black;
+  }
+  
+
+
+#topSongsTable{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+#img01Table{
+    border-radius: 5px;
+    width: 43px;
+    height: 36px;
+}
+
+td{
+    font-size: 0.6rem;
+    border: none;
+    padding: 10px 0;
+}
+
+th{
+    font-size: 0.7rem;
+    margin-left: 10%;
+    border-bottom: -10em solid #000;
+    outline: none;
+  
+}
+
+#topAlbumsTable{
+    position: absolute;
+    top: 53%;
+    left: 69%;
+  
+}
+
+
+
+.imgsNewAlbum{
+    border-radius: 5px;
+    width: 113px;
+    height: 106px;
+}
+
+#albumsTable{
+    border-collapse: separate;
+    border-spacing:  10px 2px;
+    width: 100%;
+
+}
+
+#newAlbumsText{
+    font-size: 0.45rem;
+
 }
