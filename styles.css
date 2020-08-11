@@ -130,7 +130,7 @@ h4,h6{
 }
 
 #imgFooter{
-    margin-left: auto;
+    margin-left: 20%;
     width: 45%;
     height: auto;
    
@@ -333,7 +333,7 @@ th{
     position: absolute;
     top: 53%;
     left: 74%;
-    right: 0;
+    right: 5%;
   
 }
 
@@ -476,7 +476,21 @@ pre{
 #allEvents{
     font-size: 0.4rem;
     margin-bottom: 0;
-    margin-top: -2%;
+    margin-top: -2.5%;
     margin-left: 40%;
     margin-right: auto;
+}
+
+.dayNumber{
+    font-size: 1rem;
+}
+
+#month{
+    margin-left: 10%;
+    font-size: 0.38rem;
+}
+
+#year{
+    margin-left: 17%;
+    font-size: 0.38rem;
 }
