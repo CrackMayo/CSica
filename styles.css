@@ -126,12 +126,14 @@ h4,h6{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+    border: none;
 }
 
 #imgFooter{
     margin-left: auto;
     width: 45%;
     height: auto;
+   
 
 }
 
@@ -322,7 +324,7 @@ td{
 th{
     font-size: 0.5rem;
     margin-left: 10%;
-    border-bottom: -10em solid #000;
+  
     outline: none;
     font-weight: normal;
 }
@@ -362,8 +364,8 @@ th{
 
 #squareNextImg{
     position: relative;
-    background-color: 	#f1f1f1;
-    width: 360px;
+    background-color: 	#E7E7E7;
+    width: 440px;
     height: auto;
     margin-right: auto;
 }
@@ -392,4 +394,89 @@ tbody{
   
     width: 70%;
     height: auto;;
+}
+
+.line{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.line2{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: 0.2px solid #D2D2D2;
+}
+
+.line3{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: 0.2px solid black;
+}
+
+td{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.center{
+    text-align: center;
+}
+
+#whiteSquare{
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    height: 250px;
+    width: 600px;
+    bottom: -40% ;
+    left: 36%;
+    margin-bottom: 40px;
+}
+
+#eventsTable{
+    border-collapse: separate;
+    border-spacing:  30px 20px;
+    margin-bottom: 0;
+}
+
+
+pre{
+   display: inline;
+    margin: 0;
+    margin-right: 0;
+}
+
+
+.imgsLocation{
+    width: 20%;
+    height: 50%;
+}
+
+.btnComprar{
+    margin: 0;
+    background-color: #00cfa5;
+    opacity: 100%;
+    width: 100px;
+    padding: 2px;
+    cursor:pointer;
+    outline: none;
+    border-radius: 15px;
+    border-width: thin;
+    color: white;
+    font-size: 0.37rem;
+    margin-bottom: 5%;
+    border-color:transparent;
+
+}
+
+#allEvents{
+    font-size: 0.4rem;
+    margin-bottom: 0;
+    margin-top: -2%;
+    margin-left: 40%;
+    margin-right: auto;
 }
